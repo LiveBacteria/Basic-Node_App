@@ -1,0 +1,9 @@
+What is a Node module? 
+A node module is, as the checkpoint explains, a set of functions that are importable / `require`-able in other code.
+
+What is the main difference between exports and module.exports?
+I didn't even realise these were two different things until this question I went back and realised I did the coding practice / challenge with exports not module exports. The main difference between exports and module exports is that module exports is an object that contains methods.
+
+Why is using exports recommended?
+If this question is asking why it is recommended to use `exports` and not why using exports of either kind in general then..:
+`exports` is not reassignable outside of the module, meaning you won't risk breaking your code by accidentally setting exports to equal something else.
